@@ -32,9 +32,7 @@ import sphinx
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.todo',
-    'sphinx.ext.mathjax',
-    'sphinxcontrib.bibtex']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo','sphinx.ext.mathjax', 'sphinxcontrib.bibtex' 'sphinx.ext.autosummary', 'sphinx.ext.extlinks', 'sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
