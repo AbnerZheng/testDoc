@@ -177,3 +177,36 @@ epub_copyright = copyright
 epub_exclude_files = ['search.html']
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+
+
+from sphinx import addnodes  # noqa
+
+event_sig_re = re.compile(r'([a-zA-Z-]+)\s*\((.*)\)')
+
+
+def parse_event(env, sig, signode):
+    m = event_sig_re.match(sig)
+    if not m:
+        signode += addnodes.desc_name(sig, sig)
+        return sig
+    name, args = m.groups()
+    signode += addnodes.desc_name(name, name)
+    plist = addnodes.desc_parameterlist()
+    for arg in args.split(','):
+        arg = arg.strip()
+        plist += addnodes.desc_parameter(arg, arg)
+        signode += plist
+    return name
+
+
+def setup(app):
+    from sphinx.ext.autodoc import cut_lines
+    from sphinx.util.docfields import GroupedField
+    app.connect('autodoc-process-docstring', cut_lines(4, what=['module']))
+    app.add_object_type('confval', 'confval',
+                        objname='configuration value',
+                        indextemplate='pair: %s; configuration value')
+    fdesc = GroupedField('parameter', label='Parameters',
+                         names=['param'], can_collapse=True)
+    app.add_object_type('event', 'event', 'pair: %s; event', parse_event,
+                        doc_field_types=[fdesc])
