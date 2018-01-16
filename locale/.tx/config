@@ -1,0 +1,39 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[RChain_fans_Team.actors-tuples-and-pi]
+file_filter = <lang>/LC_MESSAGES/actors-tuples-and-pi.po
+source_file = pot/actors-tuples-and-pi.pot
+source_lang = en
+
+[RChain_fans_Team.bibliography]
+file_filter = <lang>/LC_MESSAGES/bibliography.po
+source_file = pot/bibliography.pot
+source_lang = en
+
+[RChain_fans_Team.conclusions]
+file_filter = <lang>/LC_MESSAGES/conclusions.po
+source_file = pot/conclusions.pot
+source_lang = en
+
+[RChain_fans_Team.enter-the-blockchain]
+file_filter = <lang>/LC_MESSAGES/enter-the-blockchain.po
+source_file = pot/enter-the-blockchain.pot
+source_lang = en
+
+[RChain_fans_Team.index]
+file_filter = <lang>/LC_MESSAGES/index.po
+source_file = pot/index.pot
+source_lang = en
+
+[RChain_fans_Team.introduction]
+file_filter = <lang>/LC_MESSAGES/introduction.po
+source_file = pot/introduction.pot
+source_lang = en
+
+[RChain_fans_Team.README]
+file_filter = <lang>/LC_MESSAGES/README.po
+source_file = pot/README.pot
+source_lang = en
+

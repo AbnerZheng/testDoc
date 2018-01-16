@@ -1,0 +1,2 @@
+-e ../mobile-process-calculi-for-blockchain
+sphinx-intl[transifex]
