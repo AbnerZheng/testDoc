@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 
 #: ../../index.rst:7
-msgid "Mobile process calculi for programming the new blockchain"
+msgid "测试一下子kankan Mobile process calculi for programming the new blockchain"
 msgstr ""
 
 #: ../../index.rst:9
