@@ -175,3 +175,5 @@ epub_copyright = copyright
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
