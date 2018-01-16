@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../mobile-process-calculi-for-blockchain/README.rst:3
-msgid "Mobile process calculi for programming the blockchain"
+msgid "测试看看process calculi for programming the blockchain"
 msgstr ""
 
 #: ../../mobile-process-calculi-for-blockchain/README.rst:5
