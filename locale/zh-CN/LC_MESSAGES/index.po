@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Mobile process calculi for programming the blockchain"
 " 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-16 15:53+0800\n"
+"POT-Creation-Date: 2018-01-16 21:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 
 #: ../../index.rst:7
-msgid "测试一下子kankan Mobile process calculi for programming the new blockchain"
+msgid "Mobile process calculi for programming the new blockchain"
 msgstr ""
 
 #: ../../index.rst:9
