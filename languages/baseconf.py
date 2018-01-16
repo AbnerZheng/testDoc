@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
 # BASEDIR is set by <lang>/conf.py
 
 execfile(os.path.join(BASEDIR, 'mobile-process-calculi-for-blockchain/conf.py'))
